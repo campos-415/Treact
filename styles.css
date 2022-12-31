@@ -83,7 +83,7 @@ NAV
 }
 
 .nav__item--link {
-  font-weight: 400;
+  font-weight: 600;
   margin: 0 24px;
   font-size: 14px;
   color: #1A202C;
@@ -142,7 +142,7 @@ flex-direction: column;
   color: #243E63;
 }
 
-form {
+.email__input--wrapper {
   padding: 4px 4px;
   display: flex;
   justify-content: space-between;
@@ -150,10 +150,25 @@ form {
   border-radius: 9999px;
 }
 
+.email__input input:focus {
+  opacity: 1;
+  border: 2px solid #6415ff;
+}
+
+.email__input--wrapper:hover {
+  border: 2px solid #A0AEC0;
+}
+
+input[type="email"]:focus{
+  outline: none;
+}
+
+
+
 .email__input {
   margin: 8px 12px;
   border: none;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .landing__img--wrapper {
@@ -183,5 +198,4 @@ form {
   opacity: 0.6;
   width: 100%;
   margin-top: 12px;
-
 }
