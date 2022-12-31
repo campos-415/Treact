@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap');
 
 * {
   padding: 0;
@@ -35,7 +35,7 @@ li {
 
 .container {
   max-width: 1200px;
-  margin: 0;
+  margin: 0 auto;
   padding: 96px 0;
 }
 
@@ -198,4 +198,37 @@ input[type="email"]:focus{
   opacity: 0.6;
   width: 100%;
   margin-top: 12px;
+}
+
+
+/* 
+
+FEATURES
+
+*/
+
+.features__row {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section__title{
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+.section__sub-title {
+  color: #243E63;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.section__description--para {
+  margin: 24px 0;
+  font-size: 20px;
+  text-align:center;
 }
