@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', system-ui;
+}
+
+body {
+  padding: 32px;
+} 
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.btn {
+  
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #6415ff;
+  padding: 8px 32px;
+  border-radius: 9999px;
+  color: #fff;
+}
+
+.purple {
+  color: #6415ff
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0;
+  padding: 96px 0;
+}
+
+
+/* 
+
+NAV
+
+*/
+
+.nav__container {
+  /* padding: 32px 0; */
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.logo__img {
+  width: 100%;
+}
+
+.logo__link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0;
+  gap: 10px;
+}
+
+.logo__figure {
+  width:50px;
+}
+
+.logo__name {
+  font-size: 24px;
+  color: #243E63;
+}
+
+.nav__items {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav__item--link {
+  font-weight: 400;
+  margin: 0 24px;
+  font-size: 14px;
+  color: #1A202C;
+  padding: 0 0 4px;
+}
+
+.nav__item--link--primary {
+  background-color: #6415ff;
+  padding: 12px 32px;
+  border-radius: 9999px;
+  color: #fff;
+}
+
+.nav__item--link:not(:last-child):hover {
+  color: #6415ff;
+  border-bottom: 2px solid #6415ff;
+}
+
+.logo__name:hover {
+  color: #6415ff;
+}
+
+/* 
+
+LANDING
+
+*/
+
+#landing {
+  width: 10;
+  height: 100vh;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+}
+
+.landing__row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.landing__description {
+width: 40%;
+display: flex;
+flex-direction: column;
+}
+
+.landing__title {
+  font-size: 48px;
+}
+
+.landing__description--para {
+  margin: 32px 0;
+}
+
+form {
+  padding: 4px 1px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid lightgray;
+  border-radius: 9999px;
+}
+
+.email__input {
+  padding: 16px;
+  margin: 8px 12px;
+  border: none;
+  font-size: 16px;
+  color: lightgray;
+
+}
+
+.landing__img--wrapper {
+  width: 60%; 
+}
+
+.landing__img {
+  width: 100%;
+}
+
+.sign-up__btn {
+  padding: 16px 32px;
+}
