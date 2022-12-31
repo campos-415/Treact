@@ -138,10 +138,12 @@ flex-direction: column;
 
 .landing__description--para {
   margin: 32px 0;
+  font-size: 18px;
+  color: #243E63;
 }
 
 form {
-  padding: 4px 1px;
+  padding: 4px 4px;
   display: flex;
   justify-content: space-between;
   border: 2px solid lightgray;
@@ -149,12 +151,9 @@ form {
 }
 
 .email__input {
-  padding: 16px;
   margin: 8px 12px;
   border: none;
   font-size: 16px;
-  color: lightgray;
-
 }
 
 .landing__img--wrapper {
@@ -167,4 +166,22 @@ form {
 
 .sign-up__btn {
   padding: 16px 32px;
+}
+
+.trusted-brands__img--para {
+  font-size: 13px;
+  margin-top: 80px;
+  font-weight: 700;
+  color: #A0AEC0;
+}
+
+.trusted-brands__img--wrapper {
+  width: 400px;
+}
+
+.trusted-brands__img {
+  opacity: 0.6;
+  width: 100%;
+  margin-top: 12px;
+
 }
