@@ -113,8 +113,7 @@ LANDING
 */
 
 #landing {
-  width: 10;
-  height: 100vh;
+  width: 100%;
   margin: 0 auto;
   max-width: 1200px;
   display: flex;
@@ -208,7 +207,7 @@ FEATURES
 */
 
 .features__row {
-  width: 100px;
+  /* width: 100px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -228,7 +227,29 @@ FEATURES
 }
 
 .section__description--para {
-  margin: 24px 0;
-  font-size: 20px;
-  text-align:center;
+  font-weight: 700;
+  width: 60%;
+  margin: 33px;
+  font-size: 16px;
+  text-align: center;
+  color: #243e6382;
+}
+
+.services {
+  width: calc(100% / 3);
+  display: flex;
+  justify-content: center;
+}
+
+
+.service__img--wrapper {
+  padding: 12px;
+  border-radius: 50%;
+  width: 49px;
+  margin: 12px 16px;
+  border: 2px solid #243e6382;
+}
+
+.service__img {
+  padding: 0 12px 0 0;
 }
