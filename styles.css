@@ -27,6 +27,10 @@ li {
   border-radius: 9999px;
   color: #fff;
 }
+.btn:hover {
+  background-color: #5511de;
+  cursor: not-allowed;
+}
 
 .purple {
   color: #6415ff
@@ -36,6 +40,12 @@ li {
   max-width: 1200px;
   margin: 0 auto;
   padding: 96px 0;
+}
+
+.row {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
 }
 
 
@@ -110,12 +120,6 @@ LANDING
 
 */
 
-
-.landing__row {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-}
 
 .landing__description {
 width: 50%;
@@ -275,7 +279,7 @@ FEATURES
   margin-bottom : 48px;
   font-size: 18px;
   text-align: start;
-  color: #243e6382;
+  color: #243E63;
 }
 
 
@@ -292,6 +296,8 @@ QUALITY WORK
 
 .qw__description--wrapper {
   width: 50%;
+  display: flex;
+  flex-direction: column;
 }
 
 .qw__para {
@@ -299,7 +305,8 @@ QUALITY WORK
   width: 90%;
   text-align: left;
   padding: 0;
-  margin: 24px 0;
+  margin-left: 0;
+  margin-top: 32px;
 }
 
 .quality-work__img--wrapper {
@@ -310,6 +317,109 @@ QUALITY WORK
   width: 100%;
 }
 
-.qw__btn--container {
-  margin-top: 32px;
+.qw__btn {
+  margin-top: 12px;
+  max-width: 28%;
+}
+
+
+/* 
+
+STEPS
+
+*/
+
+.step__img--wrapper {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.step__img {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.step__description--wrapper {
+  width: 50%;
+}
+
+.step {
+  display: flex;
+  justify-content: start;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.step__number {
+  opacity: 0.5;
+  color: #243e6382;
+  font-size: 32px;
+  margin-right: 12px;
+}
+
+.step__name {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.step__para {
+  font-weight: 400;
+  color: #243E63;
+  max-width: 65%;
+  margin-top: 12px;
+}
+
+/* 
+
+VALUES
+
+*/
+
+.value__row {
+  display: flex;
+}
+
+.value__img--wrapper {
+  width: 50%;
+}
+
+.value__img {
+  width: 100%;
+}
+
+.section__value--description {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.values {
+  display: flex;
+}
+
+.value__name {
+  font-size: 24px;
+}
+
+.value__para {
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 14px;
+  color: #243e6382;
+  max-width: 75%;
+  margin: 16px 0;
+}
+
+.value__description--para {
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 0;
+  text-align: left;
+  font-size: 18px;
+  color: #243e6382;
+  margin: 32px 0 ;
 }
