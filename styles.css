@@ -476,11 +476,10 @@ PLANS
   margin-top: 48px;
   width: 100%;
   display: flex;
-  /* justify-content: space-between; */
-  flex-direction: column;
+  justify-content: space-between;
   margin: 0 auto;
-  /* align-items: center; */
-/* flex-wrap: wrap; */
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .plan {
