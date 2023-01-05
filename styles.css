@@ -829,7 +829,7 @@ LARGER TABLETS
 
   .services {
     margin: 0 auto;
-    width: calc(100% / 2);
+    width: calc(75% / 2);
  
   }
   .service {
@@ -838,11 +838,11 @@ LARGER TABLETS
   
   #quality-work,#steps,#values {
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 90%;
   }
 
   .section__sub-title {
-    font-size: 32px;
+    font-size: 48px;
   }
 
   .section__description--para {
@@ -866,12 +866,36 @@ LARGER TABLETS
   .plans__wrapper {
     align-items: center;
     margin: 0 auto;
+    flex-direction: column;
   }
 
   .plan {
     margin: 24px auto;
     width: 50%;
-  
+
+  }
+   
+  .testimonials__img--wrapper {
+    width: 40%;
+  }
+
+  .testimonials__title {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+
+  .btns{
+    display: flex;
+  }
+
+  .questions__wrapper {
+    width: 90%;
+   }
+
+  .purple__div {
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
   }
 
   .columns {
@@ -884,6 +908,14 @@ LARGER TABLETS
  
 }
 
+
+/*
+
+LARGER PHONES AND SOME TABLETS
+
+*/
+
+
 @media (max-width: 769px) {
   .container, .row{
     display: flex;
@@ -891,6 +923,10 @@ LARGER TABLETS
     align-items: center;
   }
   
+  .section__sub-title {
+    font-size: 40px;
+  }
+
   .landing__description {
     width: 75%;
   }
@@ -943,6 +979,14 @@ LARGER TABLETS
     text-align: center;
   }
 
+  .step__img--wrapper {
+    width: 75%;
+  }
+
+  .value__img--wrapper {
+    width: 75%;
+  }
+
   .value__row {
     flex-direction: column-reverse;
   }
@@ -954,10 +998,103 @@ LARGER TABLETS
   }
 
   .value__description--para {
-    width: 100%;
     text-align: center;
     font-size: 16px;
   }
 
+  .value__name {
+    font-size: 20px;
+    margin-top: 32px;
+  }
+  .value__para {
+    margin: 16px auto;
+    text-align: center;
+  }
+
+  .price__sub-title {
+    width: 75%;
+    font-size: 48px;
+    text-align: center;
+  }
+
+  .testimonials__img--wrapper {
+    width: 75%;
+  }
+
+  .testimonials__description--wrapper {
+    width: 75%;
+  }
 
 }
+
+
+/* 
+
+SMALLER PHONES 
+
+ */
+
+ @media(max-width: 638px) {
+
+  .section__sub-title {
+    font-size: 32px;
+  }
+
+  .landing__description {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .landing__img {
+    width: 90%;
+  }
+
+ .services {
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+  }
+
+  .service__name {
+    text-align: center;
+  }
+
+  .service__para {
+    text-align: center;
+  }
+
+  .quality-work__img--wrapper,.value__img--wrapper {
+    width: 90%;
+  }
+
+  .qw__description--wrapper{
+    width: 90%;
+  }
+
+  .section__value--description {
+    width: 90%;
+  }
+
+  .value__description--para {
+    padding: 0;
+  }
+
+  .plan {
+    width: 60%;
+  }
+
+  .testimonials__description--wrapper {
+    width: 90%;
+  }
+
+  .section__title--white {
+    margin-bottom: 50px;
+    width: 75%;
+    font: 24px;
+  }
+
+  .bottom__footer {
+    flex-direction: column;
+    gap: 32px;
+  }
+ }
