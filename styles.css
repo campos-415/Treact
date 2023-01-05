@@ -1049,6 +1049,11 @@ SMALLER PHONES
     width: 90%;
   }
 
+  .features__sub-title {
+    width: 90%;
+    text-align: center;
+  }
+
  .services {
     flex-direction: column;
     align-items: center;
@@ -1091,6 +1096,15 @@ SMALLER PHONES
     margin-bottom: 50px;
     width: 75%;
     font: 24px;
+  }
+
+  .columns {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .column {
+    width: 120px;
   }
 
   .bottom__footer {
