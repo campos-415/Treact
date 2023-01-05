@@ -1105,6 +1105,7 @@ SMALLER PHONES
   
   .column {
     width: 120px;
+    margin-bottom: 32px;
   }
 
   .bottom__footer {
